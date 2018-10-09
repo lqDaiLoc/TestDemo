@@ -18,9 +18,7 @@ namespace TestDemo
 
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
-            int a = 1;
-            int b = 2;
-            int tmp = a + b;
+
         }
 
         private void button1_Click(object sender, EventArgs e)
