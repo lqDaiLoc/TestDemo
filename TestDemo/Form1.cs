@@ -21,6 +21,8 @@ namespace TestDemo
             int a = 1;
             int b = 2;
             int tmp = a + b;
+            if (a != 0 || b != 1)
+                tmp = a + b + a;
         }
 
         private void button1_Click(object sender, EventArgs e)
